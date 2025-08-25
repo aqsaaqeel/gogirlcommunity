@@ -2,7 +2,9 @@
   background-color: #E6D4FE;
   padding: 0 0;
   width: 100%;
-  height: 400px;
+  min-height: 400px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .footer-content {
@@ -112,6 +114,7 @@
 
   .footer-logo {
     height: 100px;
+    width: 160px;
   }
 
   .social-icon {
@@ -131,8 +134,8 @@
   }
 
   .beehiiv-embed {
-    width: 100% !important;
-    max-width: 100% !important;
+    width: 200% !important;
+    max-width: 300% !important;
     height: 350px !important;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
